@@ -1,0 +1,66 @@
+
+/* .custom-label .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #FF7D9F !important; 
+}
+
+
+.custom-label .MuiInputLabel-root.Mui-focused {
+    color: #FF7D9F !important; 
+}
+
+
+.custom-label .MuiInputLabel-root {
+    color: #FF7D9F;
+} */
+
+.text-alignment {
+    display: flex;
+}
+
+.event-image-section {
+    display: block;
+}
+
+.event-image-section-inner  {
+    margin: 50px;
+}
+
+@media (max-width: 1140px) {
+
+    .event-image-section-inner img {
+        width: 100%;
+
+    }
+
+}
+
+@media (max-width: 899px) {
+    .event-image-section {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        padding: 2rem 0rem;
+        gap: 1rem;
+    }
+
+    .event-image-section-inner  {
+        margin: 0;
+    }
+
+    .event-image-section-inner img {
+        width: 100%; 
+    }
+
+}
+
+@media (max-width: 500px) {
+    .event-image-section {
+
+        padding: 2rem 0rem;
+    }
+
+    .event-image-section-inner img {
+        width: 80%; 
+    }
+
+}

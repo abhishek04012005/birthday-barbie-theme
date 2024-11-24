@@ -1,0 +1,100 @@
+.countdown {
+    display: flex;
+    justify-content: center;
+}
+
+.countdown-timer {
+    display: flex;
+    justify-content: center;
+    padding-right: 3%;
+}
+
+.countdown-value h1 {
+    color: #FAB92C;
+}
+
+.countdown-variable h1 {
+    color: #EE872C;
+}
+
+@media (max-width: 1300px) {
+
+
+
+    .countdown-value h1 {
+        font-size: 2rem;
+
+    }
+
+    .countdown-variable h1 {
+        font-size: 2rem;
+    }
+
+
+}
+
+@media (max-width: 1100px) {
+
+
+
+    .countdown-value h1 {
+        font-size: 1.5rem;
+
+    }
+
+    .countdown-variable h1 {
+        font-size: 1.5rem;
+    }
+
+
+}
+
+@media (max-width: 950px) {
+
+
+
+    .countdown-value h1 {
+        font-size: 1.5rem;
+
+    }
+
+    .countdown-variable h1 {
+        font-size: 1.5rem;
+    }
+
+
+}
+
+@media (max-width: 500px) {
+
+
+    .countdown-value h1 {
+        font-size: 1.3rem;
+
+    }
+
+    .countdown-variable h1 {
+        font-size: 1.3rem;
+    }
+
+    .countdown-timer .countdown-tree-image img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 400px) {
+
+
+    .countdown-value h1 {
+        font-size: 1.1rem;
+
+    }
+
+    .countdown-variable h1 {
+        font-size: 1.1rem;
+    }
+
+    .countdown-timer .countdown-tree-image img {
+        width: 60%;
+    }
+}

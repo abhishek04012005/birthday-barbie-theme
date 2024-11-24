@@ -1,0 +1,22 @@
+.title .heading {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem;
+    color: #FF7D9F;
+}
+
+.page-container-upper-image img{
+    width: 100%;
+    height: auto;
+}
+
+.page-container-bottom-image {
+    position: relative;
+    overflow: hidden;
+}
+.page-container-bottom-image img{
+    margin-bottom: -0.6%;
+    width: 100%;
+    height: auto;
+}

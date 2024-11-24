@@ -1,0 +1,119 @@
+.card {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px;
+}
+
+.card-body {
+    position: relative;
+    max-width: 600px;
+    background-color: #FFD9E3;
+}
+
+.top-image img {
+    width: 100%;
+}
+
+.photo-frame-title {
+    padding-bottom: 1rem;
+}
+
+.photo-paragraph {
+    padding-top: 0rem;
+    padding-bottom: 6rem;
+}
+
+
+
+.photo-frame {
+    margin: 25px;
+}
+
+.inner-photo-frame {
+  
+    border: 5px solid #FFC8DD;
+}
+
+
+.inner-photo-frame img {
+    width: 100%;
+    height: auto;
+}
+.photo-paragraph {
+    position: relative;
+    text-align: left;
+    max-width: 400px;
+    height: 80px;
+}
+
+.photo-frame-title h1 {
+    color: #FF7D9F;
+    margin: 0;
+    text-align: start;
+}
+
+.photo-paragraph p {
+    position: absolute;
+    z-index: 100;
+}
+
+.bottom-image {
+
+    display: flex;
+    align-items: end;
+    margin-top: 100px;
+}
+
+
+
+
+.bottom-image .image2 {
+    position: absolute;
+}
+
+#testImage {
+    z-index: 0;
+    position: absolute;
+    right: 0;
+}
+
+@media only  screen and (max-width: 1540px) {
+    .card-body {
+        position: relative;
+        max-width: 500px;
+    }
+
+    .bottom-image img {
+        width: 100%;
+    }
+
+    #testImage {
+        width: 30%;
+    }
+}
+
+
+@media only screen and (max-width: 1366px) {
+
+    .card-body {
+        position: relative;
+        max-width: 400px;
+    }
+
+    .bottom-image img {
+        width: 100%;
+
+    }
+
+    #testImage {
+        width: 30%;
+    }
+
+    .photo-paragraph {
+        position: relative;
+        text-align: left;
+        max-width: 400px;
+        height: 150px;
+    }
+
+}

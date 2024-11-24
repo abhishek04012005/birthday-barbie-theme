@@ -1,0 +1,200 @@
+.frame {
+    /* display: flex;
+    justify-content: center; */
+}
+
+.circle-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* padding-top: 15px; */
+}
+
+.circle-frame .circle-frame-image {
+    position: relative;
+
+}
+
+.circle-frame .circle-frame-image img {
+    animation: rotation 25s infinite linear;
+}
+
+
+
+
+.circle-frame .child-image {
+    display: flex;
+    border: 10px solid #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+}
+
+
+
+
+
+.child-image img {
+    animation: scaleInOut 15s infinite linear;
+}
+
+
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes scaleInOut {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+
+@media (max-width: 1630px) {
+
+
+    .circle-frame .circle-frame-image img {
+        width: 380px;
+        height: auto;
+    }
+
+    .child-image img{
+        width: 275px;
+        height: auto;
+    }
+
+
+}
+
+@media (max-width: 1400px) {
+
+
+    .circle-frame .circle-frame-image img {
+        width: 300px;
+        height: auto;
+    }
+
+    .child-image img{
+        width: 215px;
+        height: auto;
+    }
+
+
+}
+
+@media (max-width: 1120px) {
+
+
+    .circle-frame .circle-frame-image img {
+        width: 280px;
+        height: auto;
+    }
+
+    .child-image img{
+        width: 200px;
+        height: auto;
+    }
+
+
+}
+
+@media (max-width: 1050px) {
+
+
+    .circle-frame .circle-frame-image img {
+        width: 250px;
+        height: auto;
+    }
+
+    .child-image img{
+        width: 175px;
+        height: auto;
+    }
+
+
+}
+
+@media (max-width: 899px) {
+
+    .frame {
+        margin-bottom: 8%;
+    }
+
+    .circle-frame .circle-frame-image img {
+        width: 400px;
+        height: auto;
+    }
+
+    .child-image img{
+        width: 300px;
+        height: auto;
+    }
+
+
+}
+
+@media (max-width: 500px) {
+
+   
+
+
+    .circle-frame .circle-frame-image img {
+        width: 350px;
+        height: auto;
+    }
+
+    .child-image img{
+        width: 255px;
+        height: auto;
+    }
+
+
+}
+
+@media (max-width: 380px) {
+
+   
+
+
+    .circle-frame .circle-frame-image img {
+        width: 300px;
+        height: auto;
+    }
+
+    .child-image img{
+        width: 220px;
+        height: auto;
+    }
+
+
+}
+
+@media (max-width: 320px) {
+
+
+    .circle-frame .circle-frame-image img {
+        width: 250px;
+        height: auto;
+    }
+
+    .child-image img{
+        width: 180px;
+        height: auto;
+    }
+
+
+}

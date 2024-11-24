@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    background-color: #FFD9E3;
+    /* height: 5rem; */
+    padding: 1.7rem 0 1.7rem 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-item-desktop {
+
+}
+
+.nav-item-desktop ul {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.nav-item-mobile {
+    display: none;
+}
+
+.nav-item-desktop ul li {
+    list-style: none;
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mobile-menu-icon {
+    margin-right: 0.5rem;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.hemburger-icon {
+    display: none;
+    
+}
+
+
+
+
+@media (max-width: 899px) {
+
+    .nav-bar {
+        padding: 1rem 0 1rem 0;
+    }
+    .nav-item-desktop {
+        display: none;
+    }
+
+    .hemburger-icon {
+        display: flex;
+        margin-left: auto;
+    }
+
+    .nav-item-mobile {
+        display: block;
+        margin-bottom: 10%;
+    }
+
+    .nav-item-mobile ul{
+        position: absolute;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        width: 100%;
+        margin-bottom: 20%;
+    }
+
+    .nav-item-mobile ul li {
+        display: inline;
+        background-color: #FFD9E3;
+        padding: 1rem;
+        list-style: none;
+        font-size: 1.2rem;
+        color: #ffffff;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+}

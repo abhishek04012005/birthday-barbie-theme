@@ -1,0 +1,41 @@
+.contact-item h4 {
+    font-size: 1.2rem;
+    color: #FF7D9F;
+    margin-top: 3%;
+}
+
+.contact-item h4 span {
+
+    text-decoration: none;
+    color: #FAB92C;
+
+}
+
+
+.contact-grid-header h1 {
+    text-align: left;
+    color: #FF7D9F;
+}
+
+.contact-map-section {
+    margin-bottom: 5%;
+}
+
+iframe {
+    margin-top: 1rem;
+    border: 5px solid #FFD9E3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    height: 40vh;
+}
+
+
+
+
+@media (max-width: 899px) {
+
+    .contact-map-section {
+        margin-top: 20%;
+    }
+
+}
