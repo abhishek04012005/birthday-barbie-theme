@@ -16,8 +16,8 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="footer-copyright">
-                        <p> Copyright &copy; 2024 <a href="https://www.abhishekchoudhary.co.in" target='blank'>www.AbhishekChoudhary.co.in</a></p>
-                        <p>Designed and Developed by Abhishek Choudhary</p>
+                        <p> Copyright &copy; {new Date().getFullYear()} <a href="https://www.abhishekchoudhary.co.in" target='blank'>www.AbhishekChoudhary.co.in</a></p>
+                       
                     </div>
                 </div>
             </div>

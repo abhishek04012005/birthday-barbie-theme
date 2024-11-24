@@ -21,6 +21,7 @@ const Navbar = () => {
                         <li><Link to="story-section" smooth={true} duration={800}>Story</Link></li>
                         <li><Link to="event-section" smooth={true} duration={800}>Wish</Link></li>
                         <li><Link to="rspv-section" smooth={true} duration={800}>RSPV</Link></li>
+                        <li><Link to="contact-section" smooth={true} duration={800}>Map</Link></li>
                         <li><Link to="contact-section" smooth={true} duration={800}>Contact Us</Link></li>
 
                     </ul>

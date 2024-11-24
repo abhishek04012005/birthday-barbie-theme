@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -79,5 +79,113 @@
         color: white;
     }
     
+
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.footer {
+    background-image: url(../../assests/top_pink_grass.svg);
+    transform: scaleY(-1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 12rem;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.footerbottom {
+    background-color: #88A600;
+}
+
+
+.footer-item {
+    transform: scaleY(-1);
+    padding-bottom: 0.5rem;
+}
+
+
+.footer-link ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+}
+
+.footer-link ul li {
+    list-style: none;
+}
+
+.footer-link ul li a {
+    color: white;
+}
+
+.footer-copyright p {
+    color: white;
+}
+
+.footer-copyright p a {
+    text-decoration: underline;
+    color: white;
+}
+
+
+@media (max-width: 1900px) {
+
+    .footer {
+        background-size: cover;
+    }
+
+}
+
+
+@media (max-width: 1300px) {
+    .footer {
+        height: 18vh;
+        background-size: cover;
+    }
+
+}
+
+@media (max-width: 899px) {
+    .footer {
+        height: 18vh;
+        background-size: cover;
+    }
+
+    .footer-link ul li p {
+        font-size: 0rem;
+    }
+
+
+
+}
+
+@media (max-width: 500px) {
+    .footer {
+        height: 18vh;
+        background-size: cover;
+    }
+
+    .footer-link ul li p {
+        font-size: 0rem;
+    }
+
+    .footer-copyright p {
+        color: white;
+        font-size: 0.8rem;
+    }
+
+    .footer-copyright p a {
+        text-decoration: underline;
+        color: white;
+    }
+
 
 }

@@ -2,7 +2,11 @@ import React, { useEffect, useState } from "react";
 import './Countdown.css'; // Assuming you have some CSS styles here
 // import TreeImage from '../../../assests/tree.png'
 
-const targetTime = new Date("2024-12-30T00:00:00").getTime(); // Ensure target time is specific
+const currentDate = new Date();
+const targetTime = new Date(currentDate.setMonth(currentDate.getMonth() + 1));
+
+ 
+
 
 const Countdown = () => {
     const [timeBetween, setTimeBetween] = useState(targetTime - Date.now());

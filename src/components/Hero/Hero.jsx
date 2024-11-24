@@ -8,6 +8,14 @@ import upperImage from '../../assests/page-container-upper-image.svg'
 import Countdown from '../Custom/Countdown/Countdown'
 
 const Hero = () => {
+
+    const extendedDate = new Date(new Date().setMonth(new Date().getMonth() + 1));
+    const formattedDate = extendedDate.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
+    
+    console.log(formattedDate);
+    
+
+
     return (
         <>
             <SimpleContainer>
@@ -25,11 +33,11 @@ const Hero = () => {
                                         <p className='birthday-title'>PIHU</p>
                                         <p className='birthday-age'>is turning eight
                                         </p>
-                                        <p className='birthday-date'>on 30 Dec 2024
+                                        <p className='birthday-date'>on {formattedDate}
                                         </p>
                                     </div>
                                     <div className='countdown-btn'>
-                                        <Countdown/>
+                                        <Countdown />
                                     </div>
                                 </div>
                             </Grid2>
