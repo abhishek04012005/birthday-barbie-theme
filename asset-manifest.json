@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/birthday-barbie-theme/static/css/main.824f5ef3.css",
+    "main.js": "/birthday-barbie-theme/static/js/main.62a3c420.js",
+    "static/js/453.4be7b6fb.chunk.js": "/birthday-barbie-theme/static/js/453.4be7b6fb.chunk.js",
+    "static/media/3baby.png": "/birthday-barbie-theme/static/media/3baby.8d186d6924a7736b2130.png",
+    "static/media/4baby.png": "/birthday-barbie-theme/static/media/4baby.d503b421b292b1ba7022.png",
+    "static/media/1baby.png": "/birthday-barbie-theme/static/media/1baby.85927d8b0756bf1317f2.png",
+    "static/media/2baby.png": "/birthday-barbie-theme/static/media/2baby.79cb9a752303db6112bb.png",
+    "static/media/page-container-bottom-image.svg": "/birthday-barbie-theme/static/media/page-container-bottom-image.123b1b729039c1289a45fe29a5faa422.svg",
+    "static/media/FramRotate.svg": "/birthday-barbie-theme/static/media/FramRotate.a88b65c77e63ea7dc99f4de253c6ba2c.svg",
+    "static/media/hero_bottom_1.svg": "/birthday-barbie-theme/static/media/hero_bottom_1.4346e2b1fb5d500b2cc681d77182478b.svg",
+    "static/media/heroBaby-circle.png": "/birthday-barbie-theme/static/media/heroBaby-circle.527d25b07c96f6080faa.png",
+    "static/media/page-container-upper-image.svg": "/birthday-barbie-theme/static/media/page-container-upper-image.b73b54e0707405b5c2ceca69053c1432.svg",
+    "static/media/story-upper-image.svg": "/birthday-barbie-theme/static/media/story-upper-image.3356a8a4e963ab2636811a4dc21f210e.svg",
+    "static/media/cake.svg": "/birthday-barbie-theme/static/media/cake.38baf6aa868ebb9eacd374f6545fc95c.svg",
+    "static/media/story-bottom-image.svg": "/birthday-barbie-theme/static/media/story-bottom-image.a294b2741a5b4f9207c84314dbcbd84c.svg",
+    "static/media/door.svg": "/birthday-barbie-theme/static/media/door.898ae8242289f972463ebefbf885d55a.svg",
+    "static/media/gift1.svg": "/birthday-barbie-theme/static/media/gift1.f92e14bfc6f42c81ad0404a7f72b6420.svg",
+    "static/media/story_unicorn.svg": "/birthday-barbie-theme/static/media/story_unicorn.573ecedd0dad7e369a3642d2acc0379d.svg",
+    "static/media/unicorn.svg": "/birthday-barbie-theme/static/media/unicorn.a818b98e3f8518aea5285ea94ed49539.svg",
+    "static/media/gift3.svg": "/birthday-barbie-theme/static/media/gift3.d2cc1cf103ca2658d407edf1da7e9a3d.svg",
+    "static/media/flower.svg": "/birthday-barbie-theme/static/media/flower.abac0e767a9bf6cb5b86861746fb759b.svg",
+    "static/media/Butterfly.svg": "/birthday-barbie-theme/static/media/Butterfly.529959b2ca9a4e40d649a89104259c3f.svg",
+    "static/media/gift2.svg": "/birthday-barbie-theme/static/media/gift2.3b5ee6f827cb2f2ff390d741c645f25b.svg",
+    "index.html": "/birthday-barbie-theme/index.html",
+    "main.824f5ef3.css.map": "/birthday-barbie-theme/static/css/main.824f5ef3.css.map",
+    "main.62a3c420.js.map": "/birthday-barbie-theme/static/js/main.62a3c420.js.map",
+    "453.4be7b6fb.chunk.js.map": "/birthday-barbie-theme/static/js/453.4be7b6fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.824f5ef3.css",
+    "static/js/main.62a3c420.js"
+  ]
+}
